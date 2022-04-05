@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-sacle=1.0">
+    <meta http-equiv="refresh" content="30sec">
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    <title>Contact us</title>
+    <style media="screen">
+      .container{
+        padding: 30px;
+        width: auto;
+        margin: 20px;
+        border: 3px solid black;
+      }
+      .con{
+        padding: 20px;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .con label{
+        padding: 20px;
+      }
+
+      .btn{
+        border: 3px solid black;
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 7%;
+        margin-right: 90%;
+      }
+      .bt{
+        padding-left: 50px;
+        padding-top: 15px;
+        padding-bottom: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form class="" action="#" method="post">
+        <div class="con">
+          <label for="name" >Name:</label>
+          <input type="text" name="name" value="">
+          <br>
+        </div>
+        <div class="con">
+          <label for="mobile">Mobile No:</label>
+          <input type="number" name="number" value="">
+          <br>
+        </div>
+        <div class="con">
+          <label for="email">Email:</label>
+          <input type="email" name="email" value="">
+          <br>
+        </div>
+        <div class="con">
+          <label for="address">Address:</label>
+          <textarea name="address" ></textarea> <br>
+        </div>
+        <div class="con">
+          <label for="comment" >Comment:</label>
+          <textarea name="comment"></textarea>
+        </div>
+        <div class="bt">
+          <button type="submit" onclick="myfun()" class="btn">Submit</button>
+        </div>
+
+      </form>
+
+    </div>
+    <script type="text/javascript">
+    function myfun() {
+          alert('Thank You.');
+    }
+    </script>
+  </body>
+</html>

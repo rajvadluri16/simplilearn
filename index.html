@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-sacle=1.0">
+    <meta http-equiv="refresh" content="30sec">
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    <title>Index Page</title>
+    <style media="screen">
+      .float-container{
+        display: flex;
+        padding: 20px;
+        margin-top: 20px;
+      }
+      .float-child{
+        flex: 1;
+        padding: 20px;
+        margin-top: 20px;
+      }
+      img{
+        width: 100%;
+        height: 220px;
+      }
+      .bt{
+        margin-left: 45%;
+        margin-right: 50%;
+        width: auto;
+      }
+      .btn{
+        padding: 20px;
+        border: 4px solid black;
+        color: black;
+        font-size: 30px;
+        font-weight: bold;
+        width: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="float-container">
+      <div class="float-child">
+        <img src="home.png" alt="">
+        <a href="home.html"><p>Click here to view page</p></a>
+      </div>
+      <div class="float-child">
+        <img src="about.png" alt="">
+        <a href="about.html"><p>Click here to view page</p></a>
+      </div>
+      <div class="float-child">
+        <img src="contact.png" alt="">
+        <a href="contact.html"><p>Click here to view page</p></a>
+      </div>
+    </div>
+    <div class="bt">
+      <form class="" action="index.html" method="post">
+      <button type="submit" onclick="myfun()" class="btn"><strong>Purchase Now</strong></button>
+      </form>
+    </div>
+    <script type="text/javascript">
+    function myfun() {
+          alert('Thank You For Purchasing.');
+    }
+    </script>
+  </body>
+</html>
